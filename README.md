@@ -11,7 +11,7 @@ You'll need a local machine (laptop/desktop) with the ability to run vms.
 
 1. Install [VirtualBox](<https://www.virtualbox.org/>) .
 1. Install [Vagrant](<https://www.vagrantup.com/>) .
-1. Mirror this git repo using the instructions [here](https://help.github.com/articles/duplicating-a-repository). Then clone it locally. (**Please DO NOT fork the repo**)
+1. Mirror this git repo using the instructions [here](https://help.github.com/articles/duplicating-a-repository). Then clone it locally. (**Please DO NOT fork this repo!!! **)
 1. cd to the vagrant directory in the repo  - candidates-assignment/vagrant.
 1. Run `vagrant up` and make sure you can ssh into both machines from your repo directory using `vagrant ssh server1` and `vagrant ssh server2`
 
