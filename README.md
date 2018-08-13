@@ -82,5 +82,7 @@ all fix scripts should be under vagrant/fixScripts
 Your code should be as simple as possible.
 Your code should be tested by running "vagrant destroy" and "vagrant up" and see all fixes and tasks are implemented.
 
+please be aware that we automatically test this assignment, so if it does not work for you when you run the above, the automatic tests will not pass
+
 After completion please fill up this [form](https://goo.gl/forms/De2fMjDx57cZRl8H2) with all the relevant details
 
