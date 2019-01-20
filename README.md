@@ -1,5 +1,10 @@
 # OpsSchool candidates assignment
 
+### FIRST AND MOST IMPORTANT GUIDLINE
+#### Read the instructions, go step by step and perform the instructions as written, it is crutial for you success
+#### for instance: if you submit your answers in master branch it will not pass the automated tests and will fail!!
+lets start,
+
 #### INTRO
 Hello and welcome to opsSchool home assignment.
 
@@ -13,6 +18,7 @@ You'll need a local machine (laptop/desktop) with the ability to run vms.
 1. Install [Vagrant](<https://www.vagrantup.com/>) .
 1. Mirror this git repo using the instructions [here](https://help.github.com/articles/duplicating-a-repository). Then clone it locally. (**Please DO NOT fork this repo!!! **)
 1. cd to the vagrant directory in the repo  - candidates-assignment/vagrant.
+1. create a branch winter2019 and make all your changes in that branch
 1. Run `vagrant up` and make sure you can ssh into both machines from your repo directory using `vagrant ssh server1` and `vagrant ssh server2`
 
 * for vagrant assistance see [vagrant docs](https://www.vagrantup.com/docs/)
