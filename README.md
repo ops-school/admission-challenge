@@ -75,6 +75,26 @@ Script to update configuration should be put in the following files.
 * `exercise5-fix_server1.sh`
 * `exercise5-fix_server2.sh`
 
+#### Exercise6:
+In this exercise you will write a script that performs a simple task. At times we may want to copy files between the servers.
+Please write a script that takes a variable number of arguments, with a minimum of 2 arguments.
+all arguments except the last are paths to files on the server running the script.
+The last argument is a path to a folder on the other server.
+The script will:
+1. Copy all the received files to the destination path on the other server.
+2. The last line of output will print the total number of bytes copied. Please print only the number, without additional text.
+
+Notes:
+- The script can be run on either server1 or server2 and must know to copy the files to the other server.
+- The script might be run during provisioning or copied into the server at a later time and run localy, so it should be able to run
+  successfully with both root and the default user. 
+
+Example:
+ If the script will be copied into the home directory on server1, the command `~/exercise6-fix.sh vagrant/Vagrantfile /etc/crontab /tmp/` should copy the files Vagrantfile and crontab to /tmp/ on server2. The last line of output should be:
+ `1771`
+ 
+Please add the script to `exercise6-fix.sh`.
+
 #### Deliverables
 A GitHub Pull-Request to **YOUR DUPLICATED REPO**, containing all the scripts mentioned above with the solutions to the exercises.
 
