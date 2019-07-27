@@ -1,4 +1,4 @@
-# OpsSchool candidates assignment
+# Phase 2 – The Technical Challenge
 
 ### FIRST AND MOST IMPORTANT GUIDLINE
 #### Read the instructions, go step by step and perform the instructions as written, it is crutial for your success
