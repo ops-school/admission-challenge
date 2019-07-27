@@ -115,5 +115,5 @@ Your code should be tested by running "vagrant destroy" and "vagrant up" and see
 
 please be aware that we automatically test this assignment, so if it does not work for you when you run the above, the automatic tests will not pass
 
-After completion please fill up this [form](https://goo.gl/forms/De2fMjDx57cZRl8H2) with all the relevant details
+After completion please fill up this [form](https://forms.gle/HmUs9Pp53VWS1xhg7) with all the relevant details
 
