@@ -19,7 +19,7 @@ You'll need a local machine (laptop/desktop) with the ability to run VMs.
 1. Install [Vagrant](<https://www.vagrantup.com/>) .
 1. Mirror this git repo using the instructions [here](https://help.github.com/articles/duplicating-a-repository). Then clone it locally. (**Please DO NOT fork this repo!!! **)
 1. cd to the vagrant directory in the repo  - candidates-assignment/vagrant.
-1. Create a branch winter2019 and make all your changes in that branch
+1. Create a branch summer2020 and make all your changes in that branch
 1. Run `vagrant up` and make sure you can ssh into both machines from your repo directory using `vagrant ssh server1` and `vagrant ssh server2`
 
 * for vagrant assistance see [vagrant docs](https://www.vagrantup.com/docs/)
@@ -115,5 +115,5 @@ Your code should be tested by running "vagrant destroy" and "vagrant up" and see
 
 please be aware that we automatically test this assignment, so if it does not work for you when you run the above, the automatic tests will not pass
 
-After completion please fill up this [form](https://forms.gle/HmUs9Pp53VWS1xhg7) with all the relevant details
+After completion please fill up this [form](https://forms.gle/JjcQq3x5nACAsqzt6) with all the relevant details
 
