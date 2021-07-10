@@ -19,7 +19,7 @@ You'll need a local machine (laptop/desktop) with the ability to run VMs.
 1. Install [Vagrant](<https://www.vagrantup.com/>) .
 1. Mirror this git repo using the instructions [here](https://help.github.com/articles/duplicating-a-repository). Then clone it locally. (**Please DO NOT fork this repo!!! **)
 1. cd to the vagrant directory in the repo  - candidates-assignment/vagrant.
-1. Create a branch summer2020 and make all your changes in that branch
+1. Create a branch called "winter2021" and make all your changes in that branch
 1. Run `vagrant up` and make sure you can ssh into both machines from your repo directory using `vagrant ssh server1` and `vagrant ssh server2`
 
 * for vagrant assistance see [vagrant docs](https://www.vagrantup.com/docs/)
@@ -95,13 +95,13 @@ Notes:
   successfully with both root and the default user. 
 
 Example:
- If the script will be copied into the home directory on server1, the command `~/exercise6-fix.sh vagrant/Vagrantfile /etc/crontab /tmp/` should copy the files Vagrantfile and crontab to /tmp/ on server2. The last line of output should be:
- `1771`
+ If the script will be copied into the home directory on server1, the command `~/exercise6-fix.sh /vagrant/Vagrantfile /etc/crontab /tmp/` should copy the files Vagrantfile and crontab to /tmp/ on server2. The last line of output should be:
+ `2201`
  
 Please add the script to `exercise6-fix.sh`.
 
 #### Deliverables
-A GitHub Pull-Request to **YOUR DUPLICATED REPO**, containing all the scripts mentioned above with the solutions to the exercises.
+A GitHub Pull-Request from your work branch to **YOUR DUPLICATED REPO'S** master branch, containing all the scripts mentioned above with the solutions to the exercises.
 
 PLEASE make sure your Pull Request contains all the requirements above, and doesn't contain any code you didn't change.
 
