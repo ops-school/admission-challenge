@@ -1,4 +1,4 @@
-# Welcome OpsSchool tech challange!
+# Welcome OpsSchool tech challenge!
 
 ## About The Assignment
 
