@@ -1,0 +1,38 @@
+servers=[
+{
+  :hostname => "server1",
+  :ip => "192.168.100.10",
+  :box => "ubuntu/focal64",
+  :ram => 512,
+  :cpu => 1,
+  :provisions => [".bootstrap/bootstrap.sh","fixScripts/exercise1-fix.sh","fixScripts/exercise2-fix.sh","fixScripts/exercise3-fix.sh","fixScripts/exercise5-fix_server1.sh","fixScripts/exercise4-fix_server1.sh"]
+},
+{
+  :hostname => "server2",
+  :ip => "192.168.100.11",
+  :box => "ubuntu/focal64",
+  :ram => 512,
+  :cpu => 1,
+  :provisions => ["fixScripts/exercise5-fix_server2.sh","fixScripts/exercise4-fix_server2.sh"]
+}
+]
+
+Vagrant.configure(2) do |config|
+  servers.each do |machine|
+    config.vm.define machine[:hostname] do |node|
+        machine [:provisions].each do |script|
+           node.vm.provision :shell, :path => script
+        end
+      node.vm.box = machine[:box]
+      node.vm.hostname = machine[:hostname]
+      node.vm.network "private_network", ip: machine[:ip]
+      node.vm.provider "virtualbox" do |vb|
+        vb.customize [ "modifyvm", :id, "--uartmode1", "file", File::NULL ]
+        vb.memory = machine[:ram]
+        vb.cpus = machine[:cpu]
+      end
+    end
+  end
+end
+
+
