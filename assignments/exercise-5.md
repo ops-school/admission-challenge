@@ -10,4 +10,4 @@ Script to update configuration should be put in the following files.
 
 > Once you're done continue to the next exercise
 
-[Next: **Exercise 5 ** ➡️](exercise-5.md)
+[Next: **Exercise 6 ** ➡️](exercise-6.md)
