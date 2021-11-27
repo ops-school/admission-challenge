@@ -33,8 +33,9 @@ ip  |192.168.100.10|192.168.100.11
 ## General Guidelines
 - Your code should be as simple as possible.
 
-- Your code should be tested by running `vagrant destroy` and `vagrant up` and see all fixes and tasks are implemented.
+- Your code should be tested by running `vagrant destroy` and `vagrant up` and see all fixes and tasks are implemented automatically.
 
+> IMPORTANT: The `vagrant up` command must finish successfully (with return code 0).
 - We don't do code reviews. Our tests run automatically, so make sure everything runs and finishes successfuly before you submit your assigment for review.
 
 ## Read more...
