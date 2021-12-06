@@ -21,7 +21,7 @@ The script will:
  ~/exercise6-fix.sh /vagrant/Vagrantfile /etc/crontab /tmp/
  ```
  should copy the files Vagrantfile and crontab to /tmp/ on server2. The last line of output should be:
- `2253`
+ `2163`
  
 Please add the script to `exercise6-fix.sh`
 
