@@ -11,8 +11,8 @@ The script will:
 2. The last line of output will print the total number of bytes copied. Please print only the number, without additional text.
 
 ### Important Notes
+- The arguments are passed as parameters when the script is called from the command line, not through user input.
 - The script can be run on either server1 or server2 and must know to copy the files to the other server.
-- The script should not wait for input from the user.
 - The script might be run during provisioning or copied into the server at a later time and run localy, so it should be able to run successfully with both root and the default user. 
 
 ### EXAMPLE:
@@ -21,7 +21,7 @@ The script will:
  ~/exercise6-fix.sh /vagrant/Vagrantfile /etc/crontab /tmp/
  ```
  should copy the files Vagrantfile and crontab to /tmp/ on server2. The last line of output should be:
- `2201`
+ `2163`
  
 Please add the script to `exercise6-fix.sh`
 
