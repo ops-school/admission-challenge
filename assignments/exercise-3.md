@@ -1,4 +1,4 @@
-## EXERCISE 2
+## EXERCISE 3
 
 1. Open your web browser at: http://192.168.100.10/
 2. You should see a message from OpsSchool

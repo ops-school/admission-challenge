@@ -9,7 +9,15 @@ As an Operations Engineer you may run into production issues, in the following e
 
 ![](https://media.giphy.com/media/xT5LMQSg7kWT4zqsVy/giphy.gif)
 
-## Your mission
+## Your Mission
 Solve all the exercises and submit your code. 
+- [Prerequisites](prerequisites.md) - You will learn how to setup your environment for the assignment
+- [Exercise 1](exercise-1.md) - You will have to fix a broken link to an app
+- [Exercise 2](exercise-2.md) - You will have to fix a broken link to an app
+- [Exercise 3](exercise-3.md) - You will have to fix a probelm with your corporate website 
+- [Exercise 4](exercise-4.md) - You will create names to your servers so you'll be able to access them without IP address
+- [Exercise 5](exercise-5.md) - You will allow passwordless SSH between your servers
+- [Exercise 6](exercise-6.md) - You will create a small shell script to copy files between your servers
+- [Submit](submit.md) - You will learn how to submit your assignment with git
 
-[Next: **Prerequisites** ➡️](prerequisites.md)
+[START HERE: **Prerequisites** ➡️](prerequisites.md)
