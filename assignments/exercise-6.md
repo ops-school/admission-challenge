@@ -1,6 +1,6 @@
 ## EXERCISE 6
 
-In this exercise you will write a script that copy files between servers.
+In this exercise you will write a script that copies files between servers.
 
 ### Requirements
 Please write a script that takes a variable number of arguments, with a minimum of 2 arguments.
@@ -18,10 +18,10 @@ The script will:
 ### EXAMPLE:
  If the script will be copied into the home directory on server1, the following command:
  ```
- ~/exercise6-fix.sh /vagrant/Vagrantfile /etc/crontab /tmp/
+ ~/exercise6-fix.sh ~/.profile ~/.bash_logout /tmp/
  ```
- should copy the files Vagrantfile and crontab to /tmp/ on server2. The last line of output should be:
- `2163`
+ should copy the files .profile and .bash_logout to /tmp/ on server2. The last line of output should be:
+ `1027`
  
 Please add the script to `exercise6-fix.sh`
 
