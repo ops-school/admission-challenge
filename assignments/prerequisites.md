@@ -16,7 +16,7 @@ Please go over the mandatory prerequisites below.
 - Mirror this git repo using the instructions [here](https://help.github.com/articles/duplicating-a-repository). Then clone it locally. 
 
 >IMPORTANT: **DO NOT fork this repo!!! **
--  Create a branch called `solution` and make all your changes in that branch
+-  Create a branch called `solution` and make all your changes in that branch (do not delete files from the master branch!)
 
 - `cd` to the vagrant directory in the repo  - `materials/vagrant`.
 
@@ -37,6 +37,8 @@ ip  |192.168.100.10|192.168.100.11
 
 > IMPORTANT: The `vagrant up` command must finish successfully (with return code 0).
 - We don't do code reviews. Our tests run automatically, so make sure everything runs and finishes successfuly before you submit your assigment for review.
+
+- Do not change the directory structure. The automatic tests depend on the directory structure staying the same as when you clone the repo.
 
 ## Read more...
 * for more information about vagrant see [vagrant docs](https://www.vagrantup.com/docs/)
