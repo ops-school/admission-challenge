@@ -26,7 +26,7 @@ Please go over the mandatory prerequisites below.
 ```
 name|server1|server2
 ----|-------|-------
-ip  |192.168.100.10|192.168.100.11
+ip  |192.168.60.10|192.168.60.11
 ```
 > IMPORTANT: the infrastructure should work out of the box. There's no hidden part of the exercise in which you need to debug vagrant/virtualbox.
 
